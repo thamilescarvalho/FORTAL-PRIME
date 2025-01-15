@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Adicionando estilos customizados */
+body {
+  @apply bg-gray-900 text-white antialiased; /* Fundo dark e texto claro */
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  @apply text-blue-500 hover:text-blue-400; /* Destaque para links */
+}
+
+button {
+  @apply bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-400 transition;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8; /* Responsividade na largura */
+}
